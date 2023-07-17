@@ -1,0 +1,124 @@
+@font-face{
+  font-family:gtav;
+  src: url(/fuente2/primera.otf);
+}
+body{
+    background-color:#abdacb;
+    color:#f7d8d8;
+    font-family:gtav;
+    font-size:20px;
+    background-image: url(https://i.pinimg.com/originals/85/db/41/85db411e5bebff00b8a21f6d29d8c394.gif) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+div{
+  display: line;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items:left;
+
+}
+
+button {
+height: 10;
+  margin: 10px;
+  margin-left: 160px;
+  padding: 20px;
+  text-align: center;
+}
+.custom-btn {
+  background-image: url("https://wallpapercrafter.com/desktop/56951-gta-gta-5-games-artwork-hd-4k.jpg");
+  width: 200px;
+  height: 40px;
+  color: #fefefecb;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family:gtav;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(138, 3, 3, 0.804),
+    7px 7px 20px 0px rgba(64, 50, 57, 0.804), 4px 4px 5px 0px rgba(27, 9, 9, 0.804);
+  outline: none;
+}
+
+.btn-7 {
+  background: linear-gradient(
+    0deg,
+    rgba(111, 127, 195, 0.9) 0%,
+    rgba(155, 64, 193, 0.46) 100%
+  );
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  font-family:gtav;
+font-size:medium;
+}
+.btn-7 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+}
+.btn-7:before,
+.btn-7:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  box-shadow: -7px -7px 20px 0px rgba(255, 255, 255, 0.9),
+    -4px -4px 5px 0px rgba(255, 255, 255, 0.9),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.2), 4px 4px 5px 0px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+.btn-7:before {
+  height: 0%;
+  width: 2px;
+}
+.btn-7:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-7:hover {
+  color: #ffffff;
+  background: transparent;
+}
+.btn-7:hover:before {
+  height: 100%;
+}
+.btn-7:hover:after {
+  width: 100%;
+}
+.btn-7 span:before,
+.btn-7 span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  background: rgba(10, 212, 151, 0.725);
+  box-shadow: -7px -7px 20px 0px rgba(32, 5, 5, 0.9),
+    -4px -4px 5px 0px rgba(1, 54, 84, 0.9),
+    7px 7px 20px 0px rgba(101, 26, 22, 0.2), 4px 4px 5px 0px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+.btn-7 span:before {
+  width: 2px;
+  height: 0%;
+}
+.btn-7 span:after {
+  height: 2px;
+  width: 0%;
+}
+.btn-7 span:hover:before {
+  height: 100%;
+}
+.btn-7 span:hover:after {
+  width: 100%;
+}
+
